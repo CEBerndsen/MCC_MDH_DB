@@ -1,0 +1,5 @@
+parm /content/drive/MyDrive/MDH2_MD_Colab/starting.pdb
+loadcrd /content/drive/MyDrive/MDH2_MD_Colab/starting.pdb name edited
+prepareforleap crdset edited name from-prepareforleap \ 
+pdbout /content/drive/MyDrive/MDH2_MD_Colab/starting2.pdb nowat noh
+go 
