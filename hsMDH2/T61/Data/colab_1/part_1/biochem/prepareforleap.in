@@ -1,0 +1,5 @@
+parm /content/drive/MyDrive/biochem/starting.pdb
+loadcrd /content/drive/MyDrive/biochem/starting.pdb name edited
+prepareforleap crdset edited name from-prepareforleap \ 
+pdbout /content/drive/MyDrive/biochem/starting2.pdb  noh
+go 
