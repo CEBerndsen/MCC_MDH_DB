@@ -1,0 +1,21 @@
+source leaprc.protein.ff19SB
+source leaprc.DNA.OL15
+source leaprc.RNA.OL3
+source leaprc.GLYCAM_06j-1
+source leaprc.gaff2
+source leaprc.water.tip3p
+SYS = loadpdb /content/drive/MyDrive/project4/starting_end.pdb
+alignaxes SYS
+check SYS
+charge SYS
+addions SYS Na+ 0
+addions SYS Cl- 0
+check SYS
+charge SYS
+savepdb SYS /content/drive/MyDrive/project4/SYS_nw.pdb
+saveamberparm SYS /content/drive/MyDrive/project4/SYS_nw.prmtop /content/drive/MyDrive/project4/SYS_nw.crd
+solvatebox SYS TIP3PBOX 12 0.7 
+addIonsRand SYS Na+ 50 Cl- 50
+saveamberparm SYS /content/drive/MyDrive/project4/SYS.prmtop /content/drive/MyDrive/project4/SYS.crd
+savepdb SYS /content/drive/MyDrive/project4/SYS.pdb
+quit

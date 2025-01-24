@@ -1,0 +1,5 @@
+parm /content/drive/MyDrive/project4/starting.pdb
+loadcrd /content/drive/MyDrive/project4/starting.pdb name edited
+prepareforleap crdset edited name from-prepareforleap \ 
+pdbout /content/drive/MyDrive/project4/starting2.pdb nowat noh
+go 
