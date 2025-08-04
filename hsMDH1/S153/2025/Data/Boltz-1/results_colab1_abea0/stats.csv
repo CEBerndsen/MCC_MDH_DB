@@ -1,0 +1,2 @@
+confidence_score,ptm,iptm,ligand_iptm,protein_iptm,complex_plddt,complex_iplddt,complex_pde,complex_ipde,chains_ptm,pair_chains_iptm
+0.9535444378852844,0.9581056237220764,0.0,0.0,0.0,0.9524041414260864,0.0,0.31410524249076843,0.0,{'0': 0.9581056237220764},{'0': {'0': 0.9581056237220764}}
